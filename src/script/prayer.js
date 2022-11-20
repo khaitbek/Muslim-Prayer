@@ -1,5 +1,3 @@
-import { makeRequest } from "./helper.js";
-
 // select DOM elements
 const prayerTimesTable = document.querySelector("#prayerTableBody");
 const prayerTimesTemplate = document.querySelector("#prayerTemplate").content;
@@ -40,12 +38,15 @@ const DAYS = {
 //     currentWeekDay.innerText = weekday;
 // }
 
-
+async function makeRequest(url,params = {}){
+    const paramsToQueryString = Object.entries(params).map(param => `${param[0]}=${param[1]}`).join("&");
+    return fetch(`${url}?${paramsToQueryString}`);
+}
 
 async function getPrayerTimes(region, route) {
     const prayerTimesData = await makeRequest(`https://islomapi.uz/api/${route}`, {
         region: region,
-        month: 4
+        month: new Date().getMonth() + 1
     });
     const prayerTimesToJSON = await prayerTimesData.json();
     if (Array.isArray(prayerTimesToJSON)) {
@@ -69,7 +70,7 @@ function getDate(date) {
         splitDate = splitDate.split("-");
     }
     const [year, month, day] = [splitDate[0], Number(splitDate[1]), splitDate[2]];
-    const dateString = `${year}-yil ${day}-${MONTHS[month]}`;
+    const dateString = `${year}-yil ${Number(day)}-${MONTHS[month]}`;
     return dateString;
 }
 

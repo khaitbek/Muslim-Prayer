@@ -52,12 +52,14 @@
         <!-- hero section start -->
         <section class="hero hero--prayer" id="hero">
             <div class="container">
-                <h1 class="visually-hidden">Namoz vaqtlari sayti</h1>
-                <ul class="hero__slides slides" id="slideList">
-                </ul>
-                <div class="hero__btns">
-                    <button class="hero__btn prev-btn" data-carousel-btn="prev">&#x21d0;</button>
-                    <button class="hero__btn next-btn" data-carousel-btn="next">&#x21d2;</button>
+                <div class="hero__wrapper" id="slidesWrapper">
+                    <h1 class="visually-hidden">Namoz vaqtlari sayti</h1>
+                    <ul class="hero__slides slides" id="slideList">
+                    </ul>
+                    <div class="hero__btns">
+                        <button class="hero__btn prev-btn" data-carousel-btn="prev">&#x21d0;</button>
+                        <button class="hero__btn next-btn" data-carousel-btn="next">&#x21d2;</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -140,7 +142,7 @@
     </template>
     <template id="slideTemplate">
         <li class="slides__item" id="slideItem">
-            <h2 class="hero__title text-secondary-100 text-uppercase ff-primary fw-300" id="slideTitle">
+            <h2 class="hero__title text-secondary-100 text-uppercase ff-primary fw-300 mx-0" id="slideTitle">
                 Albatta, namoz
                 mo'minlarga vaqtida farz qilingandir</h2>
             <p class="hero__text text-secondary-100 ff-primary" id="slideText">Niso surasi

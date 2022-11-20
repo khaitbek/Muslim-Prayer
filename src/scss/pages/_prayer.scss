@@ -1,54 +1,5 @@
-.hero--prayer {
-    padding-block: 50px;
-    background-image: none;
-    background-color: var(--clr-primary-100);
-}
-
-.hero--prayer::before{
-    display: none;
-}
-
-.hero__container{
-    display: grid;
-    place-items: center;
-}
-
-.prayer {
-    padding-bottom: 10rem;
-}
-
-.current-date{
-    width: 50%;
-    margin: 0 auto;
-    padding: 1rem;
-    border-radius: 10px;
-}
-
-.daily-times__location{
-    margin-bottom: 1rem;
-}
-
-.daily-times {
-}
-
-.daily-times__item[data-active=true]{
-    background-color: var(--clr-primary-300);
-}
-
-.daily-prayer__wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.daily-times__item {
-}
-
-.daily-times__heading{
-}
-
-.daily-times__time{
+.prayer{
+    padding-bottom: 100px;
 }
 
 .prayer__table {
@@ -79,11 +30,11 @@
     background-color: var(--clr-primary-300);
 }
 
+
 .prayer__table-data {
     color: #dddddd;
     border: 1px solid #dddddd;
 }
-
 
 .prayer__form {
     display: flex;

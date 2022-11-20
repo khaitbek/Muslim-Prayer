@@ -1,0 +1,32 @@
+.azans__list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,min(90%,450px));
+    grid-gap: 1rem;
+    justify-content: center;
+}
+
+iframe{
+    max-width: 450px;
+}
+
+.services__item:nth-child(2) img{
+    object-fit: cover;
+}
+
+.azans__form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.azans__select{
+    appearance: none;
+    padding-block: 1rem;
+    padding-inline: .2rem 4rem;
+    border: none;
+    background-image: url("../images/down-arrow.png");
+    background-position: right 5% center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,114 @@
+.verses{
+    padding-block: 50px;
+    background-color: var(--clr-primary-100);
+}
+
+.verses__list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,min(400px,90%));
+    gap: 1rem;
+    justify-content: center;
+}
+
+.verses__item{
+    padding: 1rem 2rem;
+    color: #fff;
+    background-color: var(--clr-primary-300);
+}
+
+.verses__item p {
+    margin-top: 0;
+}
+
+.verses__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.verses__item audio{
+    width: 100%;
+}
+
+.verses__item audio{
+    background-color: #fff;
+}
+
+.sidebar{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 50%;
+    overflow: scroll;
+    background-color: var(--clr-primary-200);
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.sidebar.show{
+    transform: translateX(0%);
+}
+
+.sidebar * {
+    cursor: pointer;
+}
+
+.sidebar__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidebar__item.playing{
+    background-color: var(--clr-primary-300);
+}
+
+.play-surah{
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    color: var(--clr-primary-100);
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.play-surah:hover{
+    border-color: #fff;
+    color: #fff;
+    background-color: var(--clr-primary-100);
+}
+
+.videos__list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,min(90%,450px));
+    grid-gap: 1rem;
+    justify-content: center;
+}
+
+iframe{
+    max-width: 450px;
+}
+
+.services__item:nth-child(2) img{
+    object-fit: cover;
+}
+
+.videos__form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.videos__select{
+    appearance: none;
+    padding-block: 1rem;
+    padding-inline: .2rem 4rem;
+    border: none;
+    background-image: url("../images/down-arrow.png");
+    background-position: right 5% center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
