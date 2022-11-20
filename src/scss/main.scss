@@ -1,3 +1,8 @@
-body{
-    background: #000;
-}
+@use "./base/fonts";
+@use "./abstracts/abstracts";
+@use "./base/default";
+@use "./base/container";
+@use "./base/utilities";
+@use "./components/components";
+@use "./layout/layout";
+@use "./pages/prayer";

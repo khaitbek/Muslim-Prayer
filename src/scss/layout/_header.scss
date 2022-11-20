@@ -1,0 +1,23 @@
+.site-header{
+    padding: 1rem 0;
+    border-bottom: 3px solid var(--clr-primary-100);
+}
+
+.site-logo{
+    font-size: 40px;
+}
+
+.site-header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-header__select{
+    display: none;
+    padding: .3rem 1rem;
+    border: 2px solid var(--clr-primary-100);
+    border-radius: 10px;
+    color: var(--clr-white);
+    background-color: var(--clr-primary-300);
+}

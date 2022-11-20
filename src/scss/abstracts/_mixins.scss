@@ -8,21 +8,4 @@
     /* retina images */
     @content;
   }
-}
-
-@mixin defaultBtn($padding:0, $background:transparent, $color:#fff, $border:2px solid #000){
-  padding: $padding;
-  background-color: $background;
-  color: $color;
-  border: $border;
-}
-
-@mixin defaultHover($transition){
-  transition: $transition;
-}
-
-@mixin defaultButtonHover($background:transparent, $color:#fff, $border:2px solid #000) {
-  background-color: $background;
-  color: $color;
-  border: $border;
-}
+};

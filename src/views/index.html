@@ -1,12 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- js -->
+    <script src="../script/app.js" type="module" defer></script>
+    <script src="../script/slides.js" type="module" defer></script>
+    <!-- css -->
     <link rel="stylesheet" href="../scss/main.scss">
 </head>
+
 <body>
+    <!-- site header start -->
+    <header class="site-header">
+        <div class="container">
+            <div class="site-header__wrapper">
+                <a class="site-logo text-primary text-primary-100" id="logo" href="#">
+                    Muslim Pro
+                </a>
+                <form class="site-header__form" id="headerForm" action="#">
+                    <select class="site-header__select clr-white" id="userLocation" name="user_location">
+                        <option value="Toshkent">Toshkent</option>
+                        <option value="Andijon">Andijon</option>
+                        <option value="Namangan">Namangan</option>
+                        <option value="Farg'ona">Farg'ona</option>
+                        <option value="Samarqand">Samarqand</option>
+                        <option value="Buxoro">Buxoro</option>
+                        <option value="Jizzax">Jizzax</option>
+                        <option value="Qashqadaryo">Qashqadaryo</option>
+                        <option value="Surxondaryo">Surxondaryo</option>
+                        <option value="Xorazm">Xorazm</option>
+                        <option value="Qoraqalpog'iston">Toshkent</option>
+                        <option value="Sirdaryo">Sirdaryo</option>
+                        <option value="Navoiy">Navoiy</option>
+
+                    </select>
+                </form>
+                <a class="site-header__link btn btn-primary" id="headerPrayerLink" href="#prayer">
+                    Get started
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- site header start -->
+
+    <!-- main content start -->
+    <main class="site-main">
+        <!-- hero section start -->
+        <section class="hero" id="hero">
+            <div class="container">
+                <h1 class="visually-hidden">Namoz vaqtlari sayti</h1>
+                <div class="hero__wrapper" id="slidesWrapper">
+
+                    <ul class="hero__slides slides" id="slideList">
+                    </ul>
+                    <div class="hero__btns">
+                        <button class="hero__btn prev-btn" data-carousel-btn="prev">&#x21d0;</button>
+                        <button class="hero__btn next-btn" data-carousel-btn="next">&#x21d2;</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- hero section end -->
+
+        <section class="services" id="services">
+            <div class="container">
+                <div class="services__wrapper">
+                    <h2 class="services__title text-center fs-600 text-primary-100">Xizmatlar</h2>
+                    <ul class="services__list" id="servicesList">
+                        <li class="services__item" data-page="quran">
+                            <img src="../images/quran.jpg" alt="Quro'ni Karim" class="services__img">
+                            <h3 class="services__heading text-center text-primary-100 fs-100 fw-100">
+                                <a class="services__link" href="./quran.html">
+                                    Qur'on
+                                </a>
+                            </h3>
+                        </li>
+                        <li class="services__item" data-page="azan">
+                            <img src="../images/azan.jpg" alt="Quro'ni Karim" class="services__img">
+                            <h3 class="services__heading text-center text-primary-100 fs-100 fw-100">
+                                <a class="services__link" href="./azan.html">
+                                    Azon
+                                </a>
+                            </h3>
+                        </li>
+                        <li class="services__item" data-page="prayer">
+                            <img src="../images/prayer_time.png" alt="Quro'ni Karim" class="services__img">
+                            <h3 class="services__heading text-center text-primary-100 fs-100 fw-100">
+                                <a class="services__link" href="./prayer.html">
+                                    Namoz vaqtlari
+                                </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- main content end -->
+
+    <!-- footer start -->
+    <footer class="site-footer">
+    </footer>
+    <!-- footer end -->
+
+    <!-- template -->
+    <template id="slideTemplate">
+        <li class="slides__item" id="slideItem">
+            <h2 class="hero__title text-secondary-100 text-uppercase ff-primary fw-300" id="slideTitle">
+                Albatta, namoz
+                mo'minlarga vaqtida farz qilingandir</h2>
+            <p class="hero__text text-secondary-100 ff-primary" id="slideText">Niso surasi
+                103-oyat
+            </p>
+        </li>
+    </template>
 </body>
+
 </html>

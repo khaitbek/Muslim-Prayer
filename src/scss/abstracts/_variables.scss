@@ -1,1 +1,32 @@
+@use "../base/typography" as typo;
+@use "../base/colors" as colors;
+$media-queries:(
 
+);
+
+*:root{
+    @each $screen-size, $font-size in typo.$type-scale{
+        @if $screen-size == small {
+            @each $size,$value in $font-size {
+                --fs-#{$size}:#{$value};
+            }
+        }@else {
+            @media screen and (min-width:768px) {
+                @each $size,$value in $font-size {
+                    --fs-#{$size}:#{$value};
+                }
+            }
+        }
+    }
+    @each $level,$fontWeight in typo.$font-weights{
+        --fw-#{$level}:#{$fontWeight};
+    }
+    --clr-white:#fff;
+    @each $color,$shades in colors.$allColors{
+        @each $shade,$value in $shades{
+            --clr-#{$color}-#{$shade}:#{$value};
+        }
+    }
+    --container-padding:20px;
+    --content:"href";
+}

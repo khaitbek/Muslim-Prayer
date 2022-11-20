@@ -1,0 +1,196 @@
+.hero--prayer {
+    padding-block: 50px;
+    background-image: none;
+    background-color: var(--clr-primary-100);
+}
+
+.hero--prayer::before{
+    display: none;
+}
+
+.hero__container{
+    display: grid;
+    place-items: center;
+}
+
+.prayer {
+    padding-bottom: 10rem;
+}
+
+.current-date{
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.daily-times__location{
+    margin-bottom: 1rem;
+}
+
+.daily-times {
+}
+
+.daily-times__item[data-active=true]{
+    background-color: var(--clr-primary-300);
+}
+
+.daily-prayer__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.daily-times__item {
+}
+
+.daily-times__heading{
+}
+
+.daily-times__time{
+}
+
+.prayer__table {
+    width: 100%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+.prayer__table * {
+    transition: background 0.3s ease-in-out;
+}
+
+.prayer__table-header {
+    color: #dddddd;
+    background-color: var(--clr-primary-400);
+}
+
+.prayer__table-header,
+.prayer__table-row {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+.prayer__table-row {
+    padding: 0.5rem;
+    text-align: center;
+    background-color: var(--clr-primary-300);
+}
+
+.prayer__table-data {
+    color: #dddddd;
+    border: 1px solid #dddddd;
+}
+
+
+.prayer__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-inline: auto;
+    margin-bottom: 2rem;
+}
+
+.prayer__select {
+    appearance: none;
+    --webkit-appearance: none;
+    padding: 0.5rem 2rem;
+    padding-left: 0;
+    text-align: left;
+    border: 2px solid transparent;
+    color: #fff;
+    background-color: var(--clr-primary-300);
+    background-image: url("../images/down-arrow.png");
+    background-size: 15px;
+    background-position: right 5% center;
+    background-repeat: no-repeat;
+}
+
+.prayer__select:not(:last-child) {
+    margin-right: 1rem;
+}
+
+@media screen and (max-width:760px) {
+
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .prayer__names {
+        display: none;
+    }
+
+    td {
+        padding: 0.5rem;
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td::before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        background-color: var(--clr-primary-100);
+    }
+
+    td:nth-of-type(1)::before {
+        content: "Sana";
+        background-color: var(--clr-secondary-200);
+    }
+
+    td:nth-of-type(2)::before {
+        content: "Bomdod";
+    }
+
+    td:nth-of-type(3)::before {
+        content: "Quyosh";
+    }
+
+    td:nth-of-type(4)::before {
+        content: "Peshin";
+    }
+
+    td:nth-of-type(5)::before {
+        content: "Asr";
+    }
+
+    td:nth-of-type(6)::before {
+        content: "Shom";
+    }
+
+    td:nth-of-type(7)::before {
+        content: "Xufton";
+    }
+
+    td:nth-of-type(8)::before {
+        content: "Kun";
+        background-color: var(--clr-secondary-200);
+    }
+}

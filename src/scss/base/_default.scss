@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     height: 100%;
     margin: 0;
+    font-family: "Roboto Condensed",sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -25,12 +26,14 @@ ul {
     padding-left: 0;
 }
 
+form,button,input,select{
+    font-family: inherit;
+}
+
 a{
     display: inline-block;
     text-decoration: none;
 }
-
-
 
 .visually-hidden {
     clip: rect(0 0 0 0);

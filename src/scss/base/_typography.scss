@@ -1,38 +1,31 @@
-$font-sizes:(
-    100,
-    200,
-    300,
-    400,
+$type-scale:(
+    small:(100:18px,
+    200:22px,
+    300:26px,
+    400:30px,
+    500:34px,
+    600:40px
+    ),
     medium:(
-        100,
-        200,
-        300,
-        400
+        100:22px,
+        200:26px,
+        300:30px,
+        400:34px,
+        500:38px,
+        600:55px
     )
 );
 
 $font-weights:(
-    100,
-    200,
-    300,
-    400,
-    medium:(
-        100,
-        200,
-        300,
-        400
-    )
+    100:400,
+    200:500,
+    300:600,
+    400:700
 );
 
-$line-heights:(
-    100,
-    200,
-    300,
-    400,
-    medium:(
-        100,
-        200,
-        300,
-        400
-    )
-)
+.heading-100{
+    width: 50%;
+    margin-inline: auto;
+    padding-bottom: 1rem;
+    border-bottom: 5px solid var(--clr-primary-300);
+}

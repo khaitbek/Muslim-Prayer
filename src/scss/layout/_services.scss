@@ -1,0 +1,40 @@
+.services{
+    padding-block: 100px;
+}
+
+.services__list{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,300px));
+}
+
+.services__item{
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.services__item:hover{
+    opacity: 0.5;
+}
+
+.services__item:focus{
+    border: 1px solid black;
+}
+
+.services__item > *{
+    pointer-events: none;
+}
+
+.services__img{
+    width: 280px;
+    max-width: 300px;
+    height: 80%;
+    border-radius: 40px;
+}
+
+.services__heading{
+    text-transform: uppercase;
+}
+
+.services__link{
+    color: inherit;
+}

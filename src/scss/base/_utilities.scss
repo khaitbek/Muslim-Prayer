@@ -1,0 +1,68 @@
+@use "./typography" as typo;
+@use "./colors" as colors;
+@each $screen-size, $font-size in typo.$type-scale{
+    @if $screen-size == small {
+        @each $size,$value in $font-size {
+            .fs-#{$size}{
+                font-size: #{$value};
+            }
+        }
+    }@else {
+        @media screen and (min-width:768px) {
+            @each $size,$value in $font-size {
+                .fs-#{$size}{
+                    font-size: #{$value};
+                }
+            }
+        }
+    }
+}
+@each $level,$fontWeight in typo.$font-weights{
+    .fw-#{$level}{
+        font-weight: #{$fontWeight};
+    };
+}
+@each $color,$shades in colors.$allColors{
+    @each $shade,$value in $shades{
+        .clr-#{$color}-#{$shade}{
+            background-color: #{$value} !important;
+        };
+    }
+}
+.clr-white{
+    background-color: #fff;
+}
+@each $color,$shades in colors.$allColors{
+    @each $shade,$value in $shades{
+        .text-#{$color}-#{$shade}{
+            color: #{$value};
+        };
+    }
+}
+.mb-0{
+    margin-bottom: 0;
+}
+
+.mx-0{
+    margin-block: 0;
+}
+
+.ff-primary{
+    font-family: "JetBrains Mono",monospace;
+}
+
+.text-white{
+    color: #fff;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.z-3{
+    z-index: 3;
+}
