@@ -1,5 +1,7 @@
 $type-scale:(
-    small:(100:18px,
+    small:(
+    50:14px,
+    100:18px,
     200:22px,
     300:26px,
     400:30px,
@@ -7,6 +9,7 @@ $type-scale:(
     600:40px
     ),
     medium:(
+        50:25px,
         100:22px,
         200:26px,
         300:30px,

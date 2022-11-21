@@ -40,7 +40,7 @@
     top: 0;
     bottom: 0;
     right: 0;
-    left: 50%;
+    left: 0%;
     overflow: scroll;
     background-color: var(--clr-primary-200);
     transform: translateX(100%);
@@ -99,8 +99,14 @@
     justify-content: center;
 }
 
+#openSidebarBtn{
+    padding:.5rem 1rem;
+    color: var(--clr-primary-100);
+    cursor: pointer;
+}
+
 iframe{
-    max-width: 450px;
+    max-width: min(100%,450px);
 }
 
 .services__item:nth-child(2) img{
@@ -115,6 +121,7 @@ iframe{
 }
 
 .videos__select{
+    max-width: 90%;
     appearance: none;
     padding-block: 1rem;
     padding-inline: .2rem 4rem;

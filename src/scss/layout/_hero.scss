@@ -1,6 +1,7 @@
 .hero {
     position: relative;
     padding: 250px 0;
+
     &::before {
         position: absolute;
         background-color: rgba(0, 0, 0, 0.8);
@@ -8,6 +9,7 @@
         content: "";
         pointer-events: none;
     }
+
     background-image: url("../images/prayer.jpeg");
     background-position: center center;
     background-size: cover;
@@ -25,42 +27,41 @@
     text-align: center;
 }
 
-.hero__btns{
+.hero__btns {
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 3;
 }
 
-.hero__btns button{
+.hero__btns button {
     position: absolute;
     top: 50%;
-    transform: translateY(-25%);
-    padding:0 1rem;
-    font-size: 3rem;
+    transform: translateY(-50%);
+
     border-radius: 5px;
-    border: 2px solid #000;
     color: #fff;
-    background-color: rgba(255,255,255,0.1);
+    background-color: transparent;
+    border: 0;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
 
-.hero__btns button:hover,.hero__btns button:focus{
+.hero__btns button:hover {
     border-color: #fff;
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
-.prev-btn{
+.prev-btn {
     left: 1rem;
 }
 
-.next-btn{
+.next-btn {
     right: 1rem;
 }
 
 .slides {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -71,32 +72,48 @@
     inset: 0;
     display: grid;
     place-items: center;
+    place-content: center;
     opacity: 0;
     pointer-events: none;
     transition: 300ms opacity ease-in-out;
 }
 
-.slides__item[data-active]{
+.slides__item[data-active] {
     opacity: 1;
     pointer-events: all;
 }
 
+@media screen and (min-width:768px) {
+    .hero__btns button {
+        padding: 0 1rem;
+        font-size: 3rem;
+        border: 2px solid #000;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .hero__btns button:focus {
+        border-color: #fff;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+}
+
+
 @media screen and (min-width:1024px) {
-    .hero{
+    .hero {
         padding-block: 300px;
         background-position: bottom;
     }
 }
 
 @media screen and (min-width:1440px) {
-    .hero{
+    .hero {
         padding-block: 300px;
         background-position: bottom -8rem center;
     }
 }
 
 @media screen and (min-width:1600px) {
-    .hero{
+    .hero {
         padding-block: 400px;
         background-position: bottom -10rem center;
     }

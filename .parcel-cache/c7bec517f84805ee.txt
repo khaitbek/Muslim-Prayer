@@ -1734,14 +1734,14 @@
 107/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/async-functions.js1668703227249775636 0
 93/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/regions/ID.js1668703228296453563 0
 86/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/transformer-html1668703227093107426 1
-71/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/azan.8f375d2d.jpg1669000090396501019 0
+71/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/azan.8f375d2d.jpg1669003755457092222 0
 93/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/regions/CG.js1668703227323109693 0
 118/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/package-manager/test/fixtures/empty/package.json1668703227293109397 0
 86/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/xxhash-wasm/package.json1668703227049773665 0
 115/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/upgradeinsecurerequests.js1668703228343120841 0
 81/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/ansi-styles/license1668703226929772733 0
 93/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/regions/DM.js1668703228279786678 0
-83/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/orif_abduvahobov.2ac8f6c7.jpg1669000090396501019 0
+83/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/orif_abduvahobov.2ac8f6c7.jpg1669003755457092222 0
 93/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/regions/NE.js1668703228316453825 0
 95/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@jridgewell/gen-mapping/README.md1668703227119774355 0
 96/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/codeframe/lib/codeframe.js1668703227293109397 0
@@ -1755,7 +1755,7 @@
 80/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/source-map-support1668703227083107327 1
 97/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/utils/src/getCertificate.js1668703227179774946 0
 96/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/node-addon-api/tools/conversion.js1668703227189775045 0
-76/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/prayer.cab6214f.js.map1669000090649835807 0
+76/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/prayer.cab6214f.js.map1669003755493758911 0
 82/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/workers/test1668703227253109003 1
 93/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/regions/DK.js1668703228279786678 0
 129/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/package-manager/test/fixtures/has-foo/node_modules/index.js1668703227193108411 0
@@ -1861,7 +1861,7 @@
 80/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/events/lib1668703227093107426 1
 101/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/core/test/InternalAsset.test.js1668703228193118876 0
 93/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/regions/LR.js1668703228309787071 0
-76/home/khaitbek/Desktop/js_projects/Muslim-Prayer/src/scss/base/_default.scss1668998256704348257 0
+76/home/khaitbek/Desktop/js_projects/Muslim-Prayer/src/scss/base/_default.scss1669002965239802174 0
 86/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/ansi-styles/package.json1668703226973106350 0
 88/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/csso/lib/replace/Number.js1668703227279775932 0
 87/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/is-arrayish/.istanbul.yml1668703227013106637 0
@@ -2054,7 +2054,7 @@
 70/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/css-tree1668703228239786154 1
 93/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/core/src/projectPath.js1668703228229786023 0
 98/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/dist/unpacker/region.js1668703228326453956 0
-53/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist1669001020877687910 1
+53/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist1669004043180438701 1
 110/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/permissions-policy.js1668703228319787202 0
 81/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/browserslist/cli.js1668703226973106350 0
 113/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/package-manager/src/MockPackageInstaller.js1668703227259775735 0
@@ -2074,8 +2074,8 @@
 102/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/array-flat.js1668703227239775538 0
 101/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@swc/helpers/src/_non_iterable_rest.mjs1668703228199785630 0
 100/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/utils/src/isDirectoryInside.js1668703227319776326 0
-72/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/index.b10d73a7.css1669000090569835348 0
-72/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/quran.98148bfd.jpg1669000090639835750 0
+72/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/index.b10d73a7.css1669004043173772036 0
+72/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/quran.98148bfd.jpg1669003755510425588 0
 83/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/is-json/test/index.js1668703227039773566 0
 93/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/regions/SA.js1668703228329787333 0
 93/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/regions/IQ.js1668703228299786940 0
@@ -2106,7 +2106,7 @@
 86/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/source-map/lib/base64.js1668703227079773961 0
 93/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/svgo/plugins/removeEmptyText.js1668703227286442665 0
 93/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/regions/BY.js1668703227313109594 0
-75/home/khaitbek/Desktop/js_projects/Muslim-Prayer/src/scss/pages/_quran.scss1668998108767490712 0
+75/home/khaitbek/Desktop/js_projects/Muslim-Prayer/src/scss/pages/_quran.scss1669004043023772071 0
 129/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/core/test/fixtures/targets-default-distdir-two/package.json1668703228279786678 0
 105/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/trusted-types.js1668703228339787464 0
 93/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/regions/VA.js1668703228346454218 0
@@ -2203,9 +2203,9 @@
 91/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/v8-compile-cache/CHANGELOG.md1668703226996439837 0
 85/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/node-releases/README.md1668703227083107327 0
 100/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/testfeat.js1668703228339787464 0
-76/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/index.b10d73a7.css.map1669000090573168700 0
+76/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/index.b10d73a7.css.map1669004043180438701 0
 92/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/config-default/LICENSE1668703226976439706 0
-78/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/husayndomla.12afe534.jpg1669000090396501019 0
+78/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/husayndomla.12afe534.jpg1669003755457092222 0
 114/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/contentsecuritypolicy2.js1668703228189785499 0
 108/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/core/lib/requests/AssetGraphRequest.js1668703227253109003 0
 103/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@swc/helpers/lib/_class_name_tdz_error.js1668703227143107918 0
@@ -2234,8 +2234,8 @@
 93/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/lmdb/dependencies/lz4/lib/lz4.h1668703228233119400 0
 90/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/transformer-svg/test1668703227066440496 1
 104/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@babel/helper-validator-identifier/scripts1668703227049773665 1
-70/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/azan.141fc1bb.js1669000090396501019 0
-75/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/index.4d7db9d5.js.map1669000090649835807 0
+70/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/azan.141fc1bb.js1669003755463758892 0
+75/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/index.4d7db9d5.js.map1669003755477092234 0
 89/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/plugin/package.json1668703227019773369 0
 95/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/workers/src/WorkerFarm.js1668703227253109003 0
 59/home/khaitbek/Desktop/js_projects/Muslim-Prayer/src/audios1668971251117851396 1
@@ -2271,10 +2271,10 @@
 66/home/khaitbek/Desktop/js_projects/Muslim-Prayer/src/script/app.js1668965603045035272 0
 100/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@babel/helper-validator-identifier/lib1668703227009773271 1
 107/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/insert-adjacent.js1668703228299786940 0
-63/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/azan.html1669000090656502512 0
-79/home/khaitbek/Desktop/js_projects/Muslim-Prayer/src/scss/base/_typography.scss1668913863923808034 0
+63/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/azan.html1669003755463758892 0
+79/home/khaitbek/Desktop/js_projects/Muslim-Prayer/src/scss/base/_typography.scss1669001944340912652 0
 88/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/yaml/browser/dist/types.js1668703227266442467 0
-73/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/alAqso.7fbe9a18.jpg1669000090636502397 0
+73/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/alAqso.7fbe9a18.jpg1669003755463758892 0
 85/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/yaml/types/timestamp.js1668703227266442467 0
 107/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/text-decoration.js1668703228339787464 0
 94/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@swc/helpers/lib/_export_star.js1668703227233108805 0
@@ -2366,7 +2366,7 @@
 107/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/packager-js/src/GlobalOutputFormat.js1668703227119774355 0
 114/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@babel/highlight/node_modules/supports-color/license1668703226993106481 0
 108/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/fs-search/fs-search.linux-x64-gnu.node1668703227323109693 0
-68/home/khaitbek/Desktop/js_projects/Muslim-Prayer/src/script/quran.js1669001020791021137 0
+68/home/khaitbek/Desktop/js_projects/Muslim-Prayer/src/script/quran.js1669003799083779521 0
 86/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/json5/lib/stringify.d.ts1668703227203108510 0
 80/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/path-type/index.js1668703226973106350 0
 101/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/classlist.js1668703227336443157 0
@@ -2404,7 +2404,7 @@
 78/home/khaitbek/Desktop/js_projects/Muslim-Prayer/src/scss/base/_container.scss1668710851487521693 0
 112/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/css-media-resolution.js1668703228243119531 0
 84/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/tslib/modules/index.js1668703226979773061 0
-72/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/prayer.cab6214f.js1669000090646502455 0
+72/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/prayer.cab6214f.js1669003755453758886 0
 90/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/node-addon-api/noexcept.gypi1668703226999773192 0
 70/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/htmlnano1668703227343109890 1
 92/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/mdn-data/css/types.schema.json1668703227246442270 0
@@ -2424,8 +2424,8 @@
 124/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/abortcontroller-polyfill/dist/abortcontroller-polyfill-only.js1668703227019773369 0
 92/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@babel/code-frame/lib/index.js1668703226993106481 0
 91/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@lezer/common/dist/index.d.ts1668703227109774257 0
-69/home/khaitbek/Desktop/js_projects/Muslim-Prayer/src/script/slides.js1668964494336207931 0
-77/home/khaitbek/Desktop/js_projects/Muslim-Prayer/src/scss/layout/_header.scss1668713996279302570 0
+69/home/khaitbek/Desktop/js_projects/Muslim-Prayer/src/script/slides.js1669001964577612114 0
+77/home/khaitbek/Desktop/js_projects/Muslim-Prayer/src/scss/layout/_header.scss1669002301424826894 0
 71/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/svgo/dist1668703227313109594 1
 80/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/css-tree/lib/utils1668703228206452383 1
 90/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/cosmiconfig/dist/Explorer.js1668703226983106416 0
@@ -2435,7 +2435,7 @@
 78/home/khaitbek/Desktop/js_projects/Muslim-Prayer/src/scss/base/_utilities.scss1668962663978689139 0
 98/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/htmlnano/docs/docs/060-contribute.md1668703227336443157 0
 103/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/packager-html/src/HTMLPackager.js1668703227019773369 0
-64/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/index.html1669000090423167839 0
+64/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/index.html1669003755473758899 0
 82/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/json5/dist/index.mjs1668703227193108411 0
 77/home/khaitbek/Desktop/js_projects/Muslim-Prayer/src/scss/layout/_footer.scss1668703216513212762 0
 85/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/htmlnano/lib/helpers.js1668703227119774355 0
@@ -2443,7 +2443,7 @@
 81/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/braces/lib/utils.js1668703227113107623 0
 109/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@swc/helpers/src/_skip_first_generator_next.mjs1668703228206452383 0
 108/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/intl-pluralrules.js1668703228299786940 0
-65/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/prayer.html1669000090423167839 0
+65/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/prayer.html1669003755473758899 0
 98/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/node-addon-api/napi-inl.deprecated.h1668703227013106637 0
 96/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/utils/src/openInBrowser.js1668703227323109693 0
 117/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/sample-mdb.txt1668703228269786547 0
@@ -2503,7 +2503,7 @@
 87/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@types/parse-json/LICENSE1668703226933106088 0
 76/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/braces/LICENSE1668703226986439771 0
 81/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/yaml/parse-cst.d.ts1668703227293109397 0
-75/home/khaitbek/Desktop/js_projects/Muslim-Prayer/src/scss/layout/_hero.scss1668850590212455743 0
+75/home/khaitbek/Desktop/js_projects/Muslim-Prayer/src/scss/layout/_hero.scss1669002782272581357 0
 103/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/typedarrays.js1668703228343120841 0
 70/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/azan.cab6214f.js1668967016645761394 0
 99/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@swc/helpers/src/_new_arrow_check.mjs1668703228199785630 0
@@ -2622,7 +2622,7 @@
 102/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/posthtml-parser/dist/location-tracker.js1668703226996439837 0
 104/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/transformer-babel/lib/constants.js1668703227099774158 0
 93/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/regions/NP.js1668703228316453825 0
-69/home/khaitbek/Desktop/js_projects/Muslim-Prayer/src/views/quran.html1669000443887656474 0
+69/home/khaitbek/Desktop/js_projects/Muslim-Prayer/src/views/quran.html1669004004210447064 0
 88/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/csso/lib/replace/String.js1668703227289776031 0
 95/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/runtime-react-refresh/src1668703226989773126 1
 99/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/source-map/dist/source-map.min.js.map1668703227266442467 0
@@ -2635,7 +2635,7 @@
 107/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/getrandomvalues.js1668703228293120186 0
 112/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/utils/test/replaceBundleReferences.test.js1668703227339776523 0
 109/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/css-initial-value.js1668703228236452777 0
-75/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/quran.0f4e5806.js.map1669001020877687910 0
+75/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/quran.0f4e5806.js.map1669003799217112900 0
 100/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/temporal.js1668703228339787464 0
 87/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/terser/lib/mozilla-ast.js1668703227323109693 0
 83/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/saidfayzullaqori.3e51be99.jpg1668984386274970339 0
@@ -2647,7 +2647,7 @@
 91/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/type-fest/source/mutable.d.ts1668703227179774946 0
 112/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/background-clip-text.js1668703227269775834 0
 93/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/css-tree/lib/syntax/node/Nth.js1668703228213119138 0
-71/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/quran.0f4e5806.js1669001020871021235 0
+71/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/quran.0f4e5806.js1669003799213779565 0
 103/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/cosmiconfig/dist/getPropertyByPath.js.map1668703227166441482 0
 108/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/css-font-stretch.js1668703228229786023 0
 75/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/quran.141fc1bb.js.map1668970972170616818 0
@@ -2699,7 +2699,7 @@
 71/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/json5/lib1668703227206441876 1
 72/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/json5/dist1668703227179774946 1
 86/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/v8-compile-cache/LICENSE1668703226923106023 0
-71/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/index.201ad526.js1669000090393167667 0
+71/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/index.201ad526.js1669003755463758892 0
 71/home/khaitbek/Desktop/js_projects/Muslim-Prayer/src/images/hadeeth.png1668839297786287773 0
 117/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@swc/helpers/src/_class_static_private_field_update.mjs1668703227329776425 0
 109/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/core/src/requests/WriteBundleRequest.js1668703228266453170 0
@@ -2711,7 +2711,7 @@
 104/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/css-tree/lib/definition-syntax/generate.js1668703227319776326 0
 85/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/react-error-overlay/lib1668703226959772929 1
 82/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/browserslist/node.js1668703227056440397 0
-81/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/yoldoshbekqori.33c8ff90.jpg1669000090636502397 0
+81/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/yoldoshbekqori.33c8ff90.jpg1669003755440425545 0
 93/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/regions/YE.js1668703228353120972 0
 103/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/core/test/fixtures/common-targets1668703228269786547 1
 100/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/fontface.js1668703228289786809 0
@@ -2724,7 +2724,7 @@
 104/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/markdown-ansi/lib/markdown-ansi.js1668703226976439706 0
 93/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/regions/PL.js1668703228323120579 0
 110/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@swc/helpers/src/_class_apply_descriptor_set.mjs1668703227313109594 0
-77/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/alijonqori.27a5f5df.jpg1669000090396501019 0
+77/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/alijonqori.27a5f5df.jpg1669003755457092222 0
 123/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/optimizer-image/parcel-image.linux-arm-gnueabihf.node1668703228226452646 0
 96/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/events/src/ValueEmitter.js1668703227109774257 0
 101/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/css-table.js1668703228263119793 0
@@ -3058,7 +3058,7 @@
 103/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/css-tree/lib/syntax/pseudo/nth-of-type.js1668703228213119138 0
 83/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/yaml/browser/index.js1668703227123107721 0
 120/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@babel/highlight/node_modules/color-convert/conversions.js1668703227009773271 0
-78/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/prayer_time.67b5f32a.png1669000090636502397 0
+78/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/prayer_time.67b5f32a.png1669003755440425545 0
 90/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/sass/types/logger/index.d.ts1668703228259786416 0
 93/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/regions/HR.js1668703228293120186 0
 78/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/chokidar/LICENSE1668703226929772733 0
@@ -3208,7 +3208,7 @@
 100/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@swc/helpers/src/_array_with_holes.mjs1668703227303109495 0
 95/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/svg.js1668703228336454087 0
 97/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/webxr.js1668703228353120972 0
-85/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/nizomiddin_shoshiy.99046b34.jpg1669000090636502397 0
+85/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/nizomiddin_shoshiy.99046b34.jpg1669003755437092209 0
 103/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/blobbuilder.js1668703227293109397 0
 95/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/electron-to-chromium/CHANGELOG.md1668703227163108115 0
 100/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/css-tree/lib/syntax/node/MediaQuery.js1668703228206452383 0
@@ -3363,7 +3363,7 @@
 99/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/history.js1668703228293120186 0
 72/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/domhandler1668703227073107228 1
 71/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@trysound1668703224303096931 1
-64/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/quran.html1669000443977656261 0
+64/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/quran.html1669004004307113712 0
 107/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/css-unset-value.js1668703228266453170 0
 71/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@mischnic1668703224269763604 1
 99/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/imports.js1668703228296453563 0
@@ -3438,7 +3438,7 @@
 128/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/dom-serializer/node_modules/entities/lib/decode_codepoint.d.ts.map1668703227119774355 0
 79/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/semver/bin/semver1668703226973106350 0
 93/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/regions/MA.js1668703228309787071 0
-74/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/prayer.4ad4cfd8.jpeg1669000090399834372 0
+74/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/prayer.4ad4cfd8.jpeg1669003755473758899 0
 78/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/semver/README.md1668703227073107228 0
 97/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@jridgewell/sourcemap-codec/LICENSE1668703226959772929 0
 70/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/escalade1668703227053107031 1
@@ -3610,7 +3610,7 @@
 88/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/css-linux-x64-musl1668703226973106350 1
 96/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/utils/test/urlJoin.test.js1668703228193118876 0
 80/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/graph/test1668703227149774651 1
-72/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/kabah.c8d891a2.jpg1669000090416501134 0
+72/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/kabah.c8d891a2.jpg1669003755510425588 0
 109/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/css-tree/lib/tokenizer/char-code-definitions.js1668703227176441580 0
 93/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/css-tree/lib/tokenizer/index.js1668703228193118876 0
 93/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/css-tree/lib/tokenizer/const.js1668703227203108510 0
@@ -3673,7 +3673,7 @@
 82/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/term-size/index.d.ts1668703227119774355 0
 78/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/term-size/vendor1668703227023106735 1
 84/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/term-size/vendor/macos1668703226996439837 1
-80/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/hasanxondomla.b3212c55.jpg1669000090636502397 0
+80/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/hasanxondomla.b3212c55.jpg1669003755440425545 0
 83/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/css-tree/package.json1668703228236452777 0
 94/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/term-size/vendor/macos/.DS_Store1668703226979773061 0
 70/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/svgo/lib1668703228193118876 1
@@ -3767,7 +3767,7 @@
 72/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/acorn/dist1668703227209775242 1
 82/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/acorn/dist/acorn.mjs1668703227206441876 0
 117/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/css-container-query-units.js1668703228216452515 0
-77/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/down-arrow.885f4380.png1669000090396501019 0
+77/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/down-arrow.885f4380.png1669003755457092222 0
 106/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/features/css-appearance.js1668703228199785630 0
 81/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/acorn/dist/acorn.js1668703227123107721 0
 84/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/plugin/LICENSE1668703226933106088 0
@@ -3900,7 +3900,7 @@
 153/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-false-glob/sub/b/index.js1668703227339776523 0
 95/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/optimizer-image/native.js1668703227006439905 0
 82/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@swc/helpers/scripts1668703228219785892 1
-75/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/index.201ad526.js.map1669000090409834429 0
+75/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/index.201ad526.js.map1669003755493758911 0
 97/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/caniuse-lite/data/regions/alt-as.js1668703227189775045 0
 91/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@swc/helpers/scripts/build.sh1668703228219785892 0
 86/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/is-binary-path/readme.md1668703226999773192 0
@@ -3926,7 +3926,7 @@
 114/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@swc/helpers/src/_class_extract_field_descriptor.mjs1668703227316442960 0
 106/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@swc/helpers/lib/_class_private_field_get.js1668703227149774651 0
 86/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/1-kun Baqara surasi.63c10053.mp31668972610351220134 0
-74/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/azan.141fc1bb.js.map1669000090409834429 0
+74/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/azan.141fc1bb.js.map1669003755493758911 0
 110/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@swc/helpers/lib/_check_private_redeclaration.js1668703227093107426 0
 90/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/nth-check/lib/esm/compile.js1668703226999773192 0
 104/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@parcel/transformer-image/src/loadSharp.js1668703227033106834 0
@@ -3985,7 +3985,7 @@
 98/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@swc/helpers/lib/_async_generator.js1668703227043106933 0
 101/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@swc/helpers/lib/_is_native_function.js1668703227249775636 0
 99/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/svgo/plugins/moveElemsAttrsToGroup.js1668703227253109003 0
-71/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/index.4d7db9d5.js1669000090646502455 0
+71/home/khaitbek/Desktop/js_projects/Muslim-Prayer/dist/index.4d7db9d5.js1669003755453758886 0
 81/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/js-tokens/README.md1668703227016440003 0
 113/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@swc/helpers/lib/_class_private_field_loose_base.js1668703227163108115 0
 118/home/khaitbek/Desktop/js_projects/Muslim-Prayer/node_modules/@swc/helpers/lib/_class_static_private_field_spec_get.js1668703227193108411 0

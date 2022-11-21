@@ -11,6 +11,7 @@
 }
 
 :root {
+  --fs-50: 14px;
   --fs-100: 18px;
   --fs-200: 22px;
   --fs-300: 26px;
@@ -37,6 +38,7 @@
 
 @media screen and (min-width: 768px) {
   :root {
+    --fs-50: 25px;
     --fs-100: 22px;
     --fs-200: 26px;
     --fs-300: 30px;
@@ -63,6 +65,7 @@ body {
   margin: 0;
   font-family: Roboto Condensed, sans-serif;
   display: flex;
+  overflow-x: hidden;
 }
 
 img {
@@ -105,6 +108,10 @@ a {
   margin: 0 auto;
 }
 
+.fs-50 {
+  font-size: 14px;
+}
+
 .fs-100 {
   font-size: 18px;
 }
@@ -130,6 +137,10 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+  .fs-50 {
+    font-size: 25px;
+  }
+
   .fs-100 {
     font-size: 22px;
   }
@@ -300,7 +311,7 @@ a {
 }
 
 .site-logo {
-  font-size: 40px;
+  margin-right: .2rem;
 }
 
 .site-header__wrapper {
@@ -316,6 +327,12 @@ a {
   border-radius: 10px;
   padding: .3rem 1rem;
   display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .site-logo {
+    font-size: 40px;
+  }
 }
 
 .hero {
@@ -356,18 +373,16 @@ a {
 .hero__btns button {
   color: #fff;
   cursor: pointer;
-  background-color: #ffffff1a;
-  border: 2px solid #000;
+  background-color: #0000;
+  border: 0;
   border-radius: 5px;
-  padding: 0 1rem;
-  font-size: 3rem;
   transition: all .3s ease-in-out;
   position: absolute;
   top: 50%;
-  transform: translateY(-25%);
+  transform: translateY(-50%);
 }
 
-.hero__btns button:hover, .hero__btns button:focus {
+.hero__btns button:hover {
   background-color: #fff3;
   border-color: #fff;
 }
@@ -384,12 +399,13 @@ a {
   width: 100%;
   height: 100%;
   margin: 0;
-  position: relative;
+  position: absolute;
 }
 
 .slides__item {
   opacity: 0;
   pointer-events: none;
+  place-content: center;
   place-items: center;
   transition: opacity .3s ease-in-out;
   display: grid;
@@ -400,6 +416,20 @@ a {
 .slides__item[data-active] {
   opacity: 1;
   pointer-events: all;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__btns button {
+    background-color: #ffffff1a;
+    border: 2px solid #000;
+    padding: 0 1rem;
+    font-size: 3rem;
+  }
+
+  .hero__btns button:focus {
+    background-color: #fff3;
+    border-color: #fff;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -672,7 +702,7 @@ iframe {
   background-color: var(--clr-primary-200);
   transition: transform .5s ease-in-out;
   position: fixed;
-  inset: 0 0 0 50%;
+  inset: 0 0 0 0%;
   overflow: scroll;
   transform: translateX(100%);
 }
@@ -728,8 +758,14 @@ iframe {
   display: grid;
 }
 
+#openSidebarBtn {
+  color: var(--clr-primary-100);
+  cursor: pointer;
+  padding: .5rem 1rem;
+}
+
 iframe {
-  max-width: 450px;
+  max-width: min(100%, 450px);
 }
 
 .services__item:nth-child(2) img {
@@ -744,6 +780,7 @@ iframe {
 }
 
 .videos__select {
+  max-width: 90%;
   appearance: none;
   background-image: url("down-arrow.885f4380.png");
   background-position: right 5% center;

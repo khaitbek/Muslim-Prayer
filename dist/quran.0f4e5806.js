@@ -542,6 +542,7 @@ const sidebar = document.querySelector("#sidebar");
 const videosList = document.querySelector("#videosList");
 const videosTemplate = document.querySelector("#videosTemplate").content;
 const authorSelect = document.querySelector("#videoSelect");
+const servicesList = document.querySelector("#servicesList");
 // global variables
 const videos = [
     {
@@ -737,7 +738,7 @@ function filterVideosByAuthor(videos, author) {
 // function calls
 getFirstAyah();
 getAyahsFromAPI("https://api.quran.com/api/v3/chapters");
-renderVideos(videos, videosList);
+renderVideos(videos.slice(0, 1), videosList);
 getAuthors(videos, authorSelect);
 
 },{"./helper.js":"g4EWW"}],"g4EWW":[function(require,module,exports) {
