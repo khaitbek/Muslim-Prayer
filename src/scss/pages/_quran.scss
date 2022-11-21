@@ -61,6 +61,17 @@
     justify-content: space-between;
 }
 
+.sidebar__heading{
+    margin-bottom: 1rem;
+    font-family: "Amiri Quran",serif;
+
+}
+
+.sidebar__item{
+    padding:1rem;
+    border-radius: 10px;
+}
+
 .sidebar__item.playing{
     background-color: var(--clr-primary-300);
 }
@@ -68,6 +79,7 @@
 .play-surah{
     padding: 0.5rem 1rem;
     border: 1px solid transparent;
+    border-radius: 10px;
     color: var(--clr-primary-100);
     background-color: #fff;
     cursor: pointer;

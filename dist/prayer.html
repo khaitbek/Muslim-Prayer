@@ -1,1 +1,154 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Document</title><script src="/prayer.c65e4342.js" type="module" defer></script><script src="/index.876edbf5.js" type="module" defer></script><link rel="stylesheet" href="/index.2654b9c8.css"></head><body>  <header class="site-header"> <div class="container"> <div class="site-header__wrapper"> <a class="site-logo text-primary text-primary-100" id="logo" href="#"> Muslim Pro </a> <form class="site-header__form" id="headerForm" action="#"> <select class="clr-white site-header__select" id="userLocation" name="user_location"> <option value="Toshkent">Toshkent</option> <option value="Andijon">Andijon</option> <option value="Namangan">Namangan</option> <option value="Farg'ona">Farg'ona</option> <option value="Samarqand">Samarqand</option> <option value="Buxoro">Buxoro</option> <option value="Jizzax">Jizzax</option> <option value="Qashqadaryo">Qashqadaryo</option> <option value="Surxondaryo">Surxondaryo</option> <option value="Xorazm">Xorazm</option> <option value="Qoraqalpog'iston">Toshkent</option> <option value="Sirdaryo">Sirdaryo</option> <option value="Navoiy">Navoiy</option> </select> </form> <a class="btn btn-primary site-header__link" id="headerPrayerLink" href="#prayer"> Get started </a> </div> </div> </header>   <main class="site-main">  <section class="hero hero--prayer" id="hero"> <div class="container"> <div class="hero__wrapper" id="slidesWrapper"> <h1 class="visually-hidden">Namoz vaqtlari sayti</h1> <ul class="hero__slides slides" id="slideList"> </ul> <div class="hero__btns"> <button class="hero__btn prev-btn" data-carousel-btn="prev">&#x21d0;</button> <button class="hero__btn next-btn" data-carousel-btn="next">&#x21d2;</button> </div> </div> </div> </section>   <section class="prayer" id="prayer"> <div class="container"> <div class="prayer__wrapper"> <h2 class="fs-600 heading-100 prayer__title text-center text-primary-100"> Namoz vaqtlari </h2> <h3 class="fs-300 prayer__day text-center text-primary-300" id="currentWeekDay"> </h3> <form class="prayer__form" id="prayerForm" action="#"> <select class="fs-100 fw-400 prayer__select" name="user_region" id="userRegion"> <option value="Toshkent">Toshkent</option> <option value="Samarqand">Samarqand</option> <option value="Farg'ona">Farg'ona</option> <option value="Namangan">Namangan</option> <option value="Andijon">Andijon</option> <option value="Jizzax">Jizzax</option> <option value="Buxoro">Buxoro</option> <option value="Guliston">Guliston</option> <option value="Qarshi">Qarshi</option> <option value="Nukus">Nukus</option> <option value="Qo'qon">Qo'qon</option> <option value="Xiva">Xiva</option> <option value="Marg'ilon">Marg'ilon</option> <option value="Navoiy">Navoiy</option> </select> <select class="fs-100 fw-400 prayer__select" name="user_period" id="userPeriod"> <option value="monthly">Oylik</option> <option value="present/week">Haftalik</option> <option value="present/day">kunlik</option> </select> </form> <table class="prayer__table" id="prayerTable"> <tr class="prayer__names prayer__table-row" id="prayerNames"> <th class="clr-secondary-200 prayer__table-header" id="prayerHeader" data-description="date">Sana</th> <th class="prayer__table-header" id="prayerHeader">Bomdod</th> <th class="prayer__table-header" id="prayerHeader">Quyosh</th> <th class="prayer__table-header" id="prayerHeader">Peshin</th> <th class="prayer__table-header" id="prayerHeader">Asr</th> <th class="prayer__table-header" id="prayerHeader">Shom</th> <th class="prayer__table-header" id="prayerHeader">Xufton</th> <th class="clr-secondary-200 prayer__table-header" id="prayerHeader" data-description="day"> Kun</th> </tr> <tbody id="prayerTableBody" data-table-body=""></tbody> </table> </div> </div> </section>  </main>   <footer class="site-footer"> </footer>   <template id="prayerTemplate"> <tr class="prayer__table-row" id="prayerTimes"> <td class="clr-secondary-200 prayer__table-data" id="prayerData" data-description="date"></td> <td class="prayer__table-data" id="prayerData" data-description="tong_saharlik"></td> <td class="prayer__table-data" id="prayerData" data-description="quyosh"></td> <td class="prayer__table-data" id="prayerData" data-description="peshin"></td> <td class="prayer__table-data" id="prayerData" data-description="asr"></td> <td class="prayer__table-data" id="prayerData" data-description="shom_iftor"></td> <td class="prayer__table-data" id="prayerData" data-description="hufton"></td> <td class="clr-secondary-200 prayer__table-data" id="prayerData" data-description="weekday"></td> </tr> </template> <template id="slideTemplate"> <li class="slides__item" id="slideItem"> <h2 class="ff-primary fw-300 hero__title mx-0 text-secondary-100 text-uppercase" id="slideTitle"> Albatta, namoz mo'minlarga vaqtida farz qilingandir</h2> <p class="ff-primary hero__text text-secondary-100" id="slideText">Niso surasi 103-oyat </p> </li> </template> </body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- js -->
+    <script src="/prayer.cab6214f.js" defer=""></script>
+    <script src="/index.4d7db9d5.js" defer=""></script>
+    <!-- css -->
+    <link rel="stylesheet" href="/index.b10d73a7.css">
+</head>
+
+<body>
+    <!-- site header start -->
+    <header class="site-header">
+        <div class="container">
+            <div class="site-header__wrapper">
+                <a class="site-logo text-primary text-primary-100" id="logo" href="#">
+                    Muslim Pro
+                </a>
+                <form class="site-header__form" id="headerForm" action="#">
+                    <select class="site-header__select clr-white" id="userLocation" name="user_location">
+                        <option value="Toshkent">Toshkent</option>
+                        <option value="Andijon">Andijon</option>
+                        <option value="Namangan">Namangan</option>
+                        <option value="Farg'ona">Farg'ona</option>
+                        <option value="Samarqand">Samarqand</option>
+                        <option value="Buxoro">Buxoro</option>
+                        <option value="Jizzax">Jizzax</option>
+                        <option value="Qashqadaryo">Qashqadaryo</option>
+                        <option value="Surxondaryo">Surxondaryo</option>
+                        <option value="Xorazm">Xorazm</option>
+                        <option value="Qoraqalpog'iston">Toshkent</option>
+                        <option value="Sirdaryo">Sirdaryo</option>
+                        <option value="Navoiy">Navoiy</option>
+
+                    </select>
+                </form>
+                <a class="site-header__link btn btn-primary" id="headerPrayerLink" href="#prayer">
+                    Get started
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- site header start -->
+
+    <!-- main content start -->
+    <main class="site-main">
+        <!-- hero section start -->
+        <section class="hero hero--prayer" id="hero">
+            <div class="container">
+                <div class="hero__wrapper" id="slidesWrapper">
+                    <h1 class="visually-hidden">Namoz vaqtlari sayti</h1>
+                    <ul class="hero__slides slides" id="slideList">
+                    </ul>
+                    <div class="hero__btns">
+                        <button class="hero__btn prev-btn" data-carousel-btn="prev">&#x21d0;</button>
+                        <button class="hero__btn next-btn" data-carousel-btn="next">&#x21d2;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- hero section end -->
+        <!-- prayer section start -->
+        <section class="prayer" id="prayer">
+            <div class="container">
+                <div class="prayer__wrapper">
+                    <h2 class="prayer__title heading-100 fs-600 text-center text-primary-100">
+                        Namoz vaqtlari
+                    </h2>
+                    <h3 class="prayer__day fs-300 text-center text-primary-300" id="currentWeekDay">
+
+                    </h3>
+                    <form class="prayer__form" id="prayerForm" action="#">
+                        <select class="prayer__select fw-400 fs-100" name="user_region" id="userRegion">
+                            <option value="Toshkent">Toshkent</option>
+                            <option value="Samarqand">Samarqand</option>
+                            <option value="Farg'ona">Farg'ona</option>
+                            <option value="Namangan">Namangan</option>
+                            <option value="Andijon">Andijon</option>
+                            <option value="Jizzax">Jizzax</option>
+                            <option value="Buxoro">Buxoro</option>
+                            <option value="Guliston">Guliston</option>
+                            <option value="Qarshi">Qarshi</option>
+                            <option value="Nukus">Nukus</option>
+                            <option value="Qo'qon">Qo'qon</option>
+                            <option value="Xiva">Xiva</option>
+                            <option value="Marg'ilon">Marg'ilon</option>
+                            <option value="Navoiy">Navoiy</option>
+                        </select>
+                        <select class="prayer__select fw-400 fs-100" name="user_period" id="userPeriod">
+                            <option value="monthly">Oylik</option>
+                            <option value="present/week">Haftalik</option>
+                            <option value="present/day">kunlik</option>
+                        </select>
+                    </form>
+
+                    <table class="prayer__table" id="prayerTable">
+                        <tr class="prayer__table-row prayer__names" id="prayerNames">
+                            <th class="prayer__table-header clr-secondary-200" id="prayerHeader" data-description="date">Sana</th>
+                            <th class="prayer__table-header" id="prayerHeader">Bomdod</th>
+                            <th class="prayer__table-header" id="prayerHeader">Quyosh</th>
+                            <th class="prayer__table-header" id="prayerHeader">Peshin</th>
+                            <th class="prayer__table-header" id="prayerHeader">Asr</th>
+                            <th class="prayer__table-header" id="prayerHeader">Shom</th>
+                            <th class="prayer__table-header" id="prayerHeader">Xufton</th>
+                            <th class="prayer__table-header clr-secondary-200" id="prayerHeader" data-description="day">
+                                Kun</th>
+                        </tr>
+                        <tbody id="prayerTableBody" data-table-body=""></tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <!-- prayer section end -->
+    </main>
+    <!-- main content end -->
+
+    <!-- footer start -->
+    <footer class="site-footer">
+    </footer>
+    <!-- footer end -->
+
+    <!-- templates -->
+
+    <template id="prayerTemplate">
+
+        <tr class="prayer__table-row" id="prayerTimes">
+            <td class="prayer__table-data clr-secondary-200" id="prayerData" data-description="date"></td>
+            <td class="prayer__table-data" id="prayerData" data-description="tong_saharlik"></td>
+            <td class="prayer__table-data" id="prayerData" data-description="quyosh"></td>
+            <td class="prayer__table-data" id="prayerData" data-description="peshin"></td>
+            <td class="prayer__table-data" id="prayerData" data-description="asr"></td>
+            <td class="prayer__table-data" id="prayerData" data-description="shom_iftor"></td>
+            <td class="prayer__table-data" id="prayerData" data-description="hufton"></td>
+            <td class="prayer__table-data clr-secondary-200" id="prayerData" data-description="weekday"></td>
+        </tr>
+    </template>
+    <template id="slideTemplate">
+        <li class="slides__item" id="slideItem">
+            <h2 class="hero__title text-secondary-100 text-uppercase ff-primary fw-300 mx-0" id="slideTitle">
+                Albatta, namoz
+                mo'minlarga vaqtida farz qilingandir</h2>
+            <p class="hero__text text-secondary-100 ff-primary" id="slideText">Niso surasi
+                103-oyat
+            </p>
+        </li>
+    </template>
+</body>
+
+</html>
