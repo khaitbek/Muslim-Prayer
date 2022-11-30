@@ -9,6 +9,8 @@ const videosList = document.querySelector("#videosList");
 const videosTemplate = document.querySelector("#videosTemplate").content;
 const authorSelect = document.querySelector("#videoSelect");
 const servicesList = document.querySelector("#servicesList");
+const verseSelect = document.querySelector("#verseSelect");
+const recitationSelect = document.querySelector("#recitationSelect");
 
 // global variables
 const videos = [
@@ -69,10 +71,39 @@ async function getAyahsFromAPI(url, options = {}) {
     renderAyahs(versesFromAPI.chapters, ayahList);
 }
 
+async function getRecitationsFromApi(url,options = {}){
+    const recitationsData = await makeRequest(`${url}`,options);
+    const recitations = await recitationsData.json();
+    renderRecitators(recitations.recitations);
+}
+
 async function getSingleAyah(url, id, options) {
     const ayahData = await makeRequest(`${url}`, options);
     const ayah = await ayahData.json();
     return ayah
+}
+
+async function getAllJuzs(){
+    const response = await makeRequest("https://api.quran.com/api/v4/juzs");
+    const juz = await response.json();
+}
+
+function renderRecitators(reciters){
+    const uniqueReciters = []
+    reciters.forEach(recitator => {
+        const {id,reciter_name} = recitator;
+        if(uniqueReciters.includes(reciter_name)) return;
+        const newOption = document.createElement("option");
+        newOption.text = reciter_name;
+        newOption.value = id;
+        recitationSelect.appendChild(newOption);
+        uniqueReciters.push(reciter_name);
+    });
+    setReciter();
+}
+
+function setReciter(){
+    window.localStorage.setItem("reciterId",recitationSelect.value);
 }
 
 function renderAyahs(ayahs, ayahsList) {
@@ -80,31 +111,58 @@ function renderAyahs(ayahs, ayahsList) {
     ayahsList.innerHTML = "";
     ayahs.forEach(ayah => {
         const verseTemplateClone = verseTemplate.cloneNode(true).children[0];
-        const { verses_count, name_simple, id, revelation_place } = ayah;
+        const { verses_count, name_simple,name_arabic, id, revelation_place,chapter_number } = ayah;
         verseTemplateClone.dataset.id = id;
-        verseTemplateClone.querySelector("#verseName").textContent = name_simple;
+        verseTemplateClone.querySelector("#verseName").textContent = `${chapter_number}. ${name_simple} (${name_arabic})`;
         verseTemplateClone.querySelector("#verseRevelationPlace").textContent = revelation_place;
-        verseTemplateClone.querySelector("#versesAyahs").textContent = verses_count;
+        verseTemplateClone.querySelector("#versesAyahs").textContent = `${verses_count} oyat`;
         verseTemplateClone
         newFragment.appendChild(verseTemplateClone);
     });
     ayahList.appendChild(newFragment);
 }
 
-function renderSurah(ayahs, list,surah) {
+async function getSingleAyahTranslation(verseKey){
+    const response = await makeRequest(`https://api.quran.com/api/v4/quran/translations/55`,{
+        verse_key:verseKey
+    });
+    const ayahTranslation = await response.json();
+    return ayahTranslation;
+}
+
+function renderSurah(ayahs, list,surah,surahNumber) {
     const newFragment = new DocumentFragment();
     list.innerHTML = "";
     const currentSurahName = sidebar.querySelector("#surahName");
     currentSurahName.textContent = surah
     ayahs.forEach(ayah => {
         const { number, numberInSurah, audio, text } = ayah;
+        const ayahVerseKey = `${surahNumber}:${numberInSurah}`;
         const surahTemplateClone = surahTemplate.cloneNode(true).children[0];
+        const currentReciterId = Number(window.localStorage.getItem("reciterId"));
+        getSingleAyahTranslation(ayahVerseKey).then(translationData => {
+            const translation = translationData.translations[0].text.split("<")[0];
+            surahTemplateClone.querySelector("#ayahTranslation").textContent = translation;
+        })
         surahTemplateClone.querySelector("#ayah").textContent = `${numberInSurah}. ${text}`;
-        surahTemplateClone.querySelector("audio").src = audio;
+        getReciterAudio(currentReciterId,ayahVerseKey).then(audio => {
+            if(currentReciterId === 12) {
+                surahTemplateClone.querySelector("audio").src = `https:${audio.audio_files?.[0]?.url}`
+            }else{
+                surahTemplateClone.querySelector("audio").src = `https://verses.quran.com/${audio.audio_files?.[0]?.url}`
+            }
+        });
         surahTemplateClone.dataset.number = number;
         newFragment.appendChild(surahTemplateClone);
     });
     list.appendChild(newFragment);
+}
+
+async function getReciterAudio(reciterId,verse_key){
+    const data = await makeRequest(`https://api.quran.com/api/v4/quran/recitations/${Number(window.localStorage.getItem("reciterId"))}`,{
+        verse_key:verse_key
+    });
+    return await data.json();
 }
 
 function checkIfAnyAudioPlaying(currentAudioNumber) {
@@ -148,7 +206,7 @@ function playNextAudio() {
 
 async function getFirstAyah() {
     const firstAyah = await getSingleAyah("https://api.alquran.cloud/v1/surah/1/editions/ar.alafasy,en.asad,ur.jalandhry?limit=1");
-    renderSurah(firstAyah.data[0].ayahs, surahList,firstAyah.data[0].englishName);
+    renderSurah(firstAyah.data[0].ayahs, surahList,firstAyah.data[0].englishName,firstAyah.data[0].number);
 }
 
 function renderVideos(videos,videosList){
@@ -178,6 +236,11 @@ function getAuthors(videos,authorsList){
     authorsList.appendChild(newFragment);
 }
 
+function filterVideosByAuthor(videos,author){
+    const filteredVideos = videos.filter(video => author === "" | video.author === author);
+    renderVideos(filteredVideos,videosList);
+};
+
 // events
 ayahList.addEventListener("click", async (evt) => {
     const targetElem = evt.target;
@@ -186,7 +249,7 @@ ayahList.addEventListener("click", async (evt) => {
         const closestSurahElement = targetElem.closest("#verseItem");
         const surahId = Number(closestSurahElement.dataset.id);
         const ayah = await getSingleAyah(`https://api.alquran.cloud/v1/surah/${surahId}/editions/ar.alafasy,en.asad,ur.jalandhry?limit=1`, {});
-        renderSurah(ayah.data[0].ayahs, surahList,ayah.data[0].englishName);
+        renderSurah(ayah.data[0].ayahs, surahList,ayah.data[0].englishName,ayah.data[0].number);
         sidebar.classList.add("show");
     }
 });
@@ -203,20 +266,29 @@ sidebar.addEventListener("click", (evt) => {
 });
 
 closeSideBarBtn.addEventListener("click", () => {
+    checkIfAnyAudioPlaying(Number(window.localStorage.getItem("audioId")))
     window.localStorage.removeItem("audioId");
     sidebar.classList.remove("show");
 });
+
 authorSelect.addEventListener("change", evt => {
     filterVideosByAuthor(videos,evt.target.value);
-})
+});
 
-function filterVideosByAuthor(videos,author){
-    const filteredVideos = videos.filter(video => author === "" | video.author === author);
-    renderVideos(filteredVideos,videosList);
-}
+verseSelect.addEventListener("change", evt => {
+    if(evt.target.value === "juz"){
+        getAllJuzs();
+    }else{
+        getAyahsFromAPI("https://api.quran.com/api/v3/chapters");
+    }
+});
+
+recitationSelect.addEventListener("change", setReciter);
+
 
 // function calls
 getFirstAyah();
+getRecitationsFromApi("https://api.quran.com/api/v4/resources/recitations");
 getAyahsFromAPI("https://api.quran.com/api/v3/chapters");
 renderVideos(videos.slice(0,1),videosList);
 getAuthors(videos,authorSelect);

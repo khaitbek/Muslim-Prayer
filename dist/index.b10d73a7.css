@@ -669,6 +669,20 @@ iframe {
   padding-block: 50px;
 }
 
+.verses__select {
+  width: 30%;
+  margin-inline: auto;
+  appearance: none;
+  background-image: url("down-arrow.885f4380.png");
+  background-position: right 5% center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  border: 0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  display: block;
+}
+
 .verses__list {
   grid-template-columns: repeat(auto-fit, min(400px, 90%));
   justify-content: center;
@@ -733,6 +747,10 @@ iframe {
 
 .sidebar__item.playing {
   background-color: var(--clr-primary-300);
+}
+
+.sidebar__text {
+  margin-bottom: 1rem;
 }
 
 .play-surah {

@@ -35,7 +35,6 @@ function renderSlides(slides,slideList){
     slides.forEach((slide,index) => {
         const slideTempClone = slideTemp.cloneNode(true).children[0];
         slideTempClone.querySelector("#slideTitle").textContent = slide.content;
-        console.log(slide.content);
         if(slide.content.length > 100) {
             slideTempClone.querySelector("#slideTitle").classList.add("fs-50");
         }

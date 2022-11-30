@@ -3,6 +3,20 @@
     background-color: var(--clr-primary-100);
 }
 
+.verses__select{
+    display: block;
+    width: 30%;
+    margin-inline: auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 0;
+    appearance: none;
+    background-image: url("../images/down-arrow.png");
+    background-position: right 5% center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
 .verses__list{
     display: grid;
     grid-template-columns: repeat(auto-fit,min(400px,90%));
@@ -74,6 +88,10 @@
 
 .sidebar__item.playing{
     background-color: var(--clr-primary-300);
+}
+
+.sidebar__text{
+    margin-bottom: 1rem;
 }
 
 .play-surah{

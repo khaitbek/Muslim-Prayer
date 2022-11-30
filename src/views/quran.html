@@ -94,9 +94,19 @@
             <div class="container">
                 <div class="verses__wrapper">
                     <h2 class="text-center text-white fs-600">Qur'oni Karim</h2>
+                    <select class="verses__select clr-primary-300 text-white fs-300" name="verses_select" id="verseSelect">
+                        <option value="surah">
+                            Suralar
+                        </option>
+                        <option value="juz">Juzlar</option>
+                    </select> 
+                    <select class="recitation__select verses__select clr-primary-300 text-white fs-300" name="recitation_select" id="recitationSelect">
+                        
+                    </select>
                     <ul class="verses__list" id="verseList">
-                        
-                        
+                    </ul>
+                    <ul class="verses__list juz-list">
+
                     </ul>
                 </div>
             </div>
@@ -175,6 +185,7 @@
             <p class="sidebar__heading text-white fs-300 mx-0" id="ayah">
                 1.  ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
             </p>
+            <p class="sidebar__text text-white fs-200 mx-0" id="ayahTranslation"></p>
 
             <audio preload="auto"></audio>
             <button class="play-surah" id="surahAudio">Play</button>
@@ -183,6 +194,11 @@
     <template id="videosTemplate">
         <li class="video__item" id="videoItem">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Lql37um7VSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </li>
+    </template>
+    <template id="juzTemplate">
+        <li class="juz-list__item" data-id="" data-last-verse="" data-first-verse="">
+
         </li>
     </template>
 </body>
